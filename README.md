@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SandeshGC/Product-Preview-Card)
-- Live Site URL: [Add live site URL here](https://sandeshgc.github.io/Product-Preview-Card)
+- Solution URL: [https://github.com/SandeshGC/Product-Preview-Card](https://github.com/SandeshGC/Product-Preview-Card)
+- Live Site URL: [https://sandeshgc.github.io/Product-Preview-Card/](https://sandeshgc.github.io/Product-Preview-Card/)
 
 ## My process
 
