@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Products//Perfume</title>
         <link rel="stylesheet" href="./styles.css" type="text/css">
-        <script src="https://kit.fontawesome.com/6e45d4888f.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
     </head>
 
     <body>
@@ -15,10 +15,13 @@
         <!-- this container contains the content -->
         <main class="prod--container">
             <!-- this div displays the product image -->
-            <div class="prod--img--container" id="prod--img--container">
-                <img src="./images/image-product-mobile.jpg" alt="A perfume bottle labeled as 'GABRIELLE CHANEL PARIS'"
-                    class="prod--img" id="prod--img" />
-            </div>
+            <!-- <div> -->
+                <picture class="prod--img--container" id="prod--img--container">
+                    <source media="(min-width:968px)" srcset="./images/image-product-desktop.jpg" />
+                    <img src="./images/image-product-mobile.jpg"
+                        alt="A perfume bottle labeled as 'GABRIELLE CHANEL PARIS'" class="prod--img" id="prod--img" />
+                </picture>
+            <!-- </div> -->
             <!-- this part describes the product -->
             <div class="prod--details">
                 <h5 class="prod--category">Perfume</h5>
@@ -33,9 +36,10 @@
                     </h2>
                     <p class="original--price text--strikethrough">$169.99</p>
                 </div>
+                <!-- add to cart button -->
                 <button class="addToCart--btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    Add to Cart
+                    <img src="./images/icon-cart.svg" class="cart--icon">
+                    <span>Add to Cart</span>
                 </button>
             </div>
         </main>
